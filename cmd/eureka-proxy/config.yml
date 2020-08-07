@@ -1,0 +1,8 @@
+proxy:
+  eurekaUrl: http://my-dev-environment.net:8761
+  fakes:
+    - id: foo-service:8081
+      ip: 192.168.0.1
+      hostname: FOO
+    - id: bar-service:8082
+      ip: 127.0.0.1

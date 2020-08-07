@@ -1,0 +1,10 @@
+proxy:
+  routes:
+    foo-route:
+      path: /foo/
+      url: http://localhost:4200
+      stripPrefix: false
+    bar-route:
+      path: /bar-api/
+      url: http://bar-service.net:8080
+      stripPrefix: false
